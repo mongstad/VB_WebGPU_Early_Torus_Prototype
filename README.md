@@ -1,4 +1,4 @@
-# WebGPU_Early_Torus_Prototype
+# Early Torus Prototype
 
 <p>Interactive WebGPU prototype that ray-marches nested tori and an optional spherical projection to demonstrate a “recursive toroidal hologram”: an energy-field of ~8k advected particles and a mock JWST early-galaxy sky are encoded to a torus-UV boundary texture each frame and then sampled back onto the toroidal shell.</p>
 
