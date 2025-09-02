@@ -11,3 +11,15 @@
 
 ## License
 This project is licensed under the Apache 2.0 License – see the [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) file for details.
+
+<footer style="margin:20px; font-size:12px; color:#94a3b8; text-align:center; opacity:0.8;">
+  <h3>Safety Notice ⚠️</h3>
+  <p><strong>Visual Patterns Disclaimer</strong><br>
+  This simulation generates dynamic interference and holographic patterns.
+  While safe under normal use, some individuals may experience mild visual discomfort if viewed for extended periods.<br>
+  It is recommended to take breaks and avoid prolonged continuous viewing.</p>
+
+  <p class="small">VB Early Toroidal Prototype Simulation<br>
+  This project is licensed under the Apache 2.0 License – see the [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) file for details.
+</footer>
+
