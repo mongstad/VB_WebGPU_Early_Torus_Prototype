@@ -10,6 +10,9 @@
 
 ### Run locally
 
+Requires a browser with WebGPU. Tested on Chrome/Edge (default), and Firefox 141+ on Windows (may require a flag on macOS/Linux). Use a local server (e.g., `python -m http.server`).
+
+
 This demo is a single HTML file, but the safest way to run it is from a local web server
 (some browsers restrict `file://` access).
 
