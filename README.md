@@ -7,7 +7,32 @@
 <p>UI sliders expose R/r, tilt, child shift, smooth-union k, exposure, and recursion depth; toggles switch Sphere projection, Hologram mode (interior/throat view), JWST overlay, and energy field. HUD shows GPU + FPS; controls: WASD/mouse, Q/E (down/up), Shift (faster), O (auto-orbit), plus a simple audio heartbeat. Includes ten inline JWST mock points (z≈10.38–12.93) colored by redshift for illustrative seeding.</p> 
 
 <h2>Run Instructions</h2>
-<p>Run locally in Chrome/Edge 113+ with WebGPU; no server required</p>
+
+### Run locally
+
+This demo is a single HTML file, but the safest way to run it is from a local web server
+(some browsers restrict `file://` access).
+
+1. **Download the source** (Code ▸ Download ZIP) or `git clone` the repo.
+2. **Start a local server** from the repo root:
+
+   **Python 3 (any OS)**
+   ```bash
+   # from the repo folder
+   python -m http.server 8080
+
+Open the sim in your browser:
+
+http://localhost:8080/[FILENAME].html
+
+Example: VB_WebGPU_Early_Torus_Prototype.html
+
+Tip: Double-clicking the HTML may work on some setups, but a local server avoids CORS/security issues.
+
+### Browser support
+
+Requires a modern browser with WebGPU (Chrome/Edge latest recommended with hardware acceleration on).
+If you see “WebGPU not available,” try updating your browser or switching to Chrome/Edge.
 
 
 ## Safety Notice
